@@ -14,9 +14,8 @@
     background: var(--primary-color);
     padding: 10px 250px;
     color: var(--main-text-color);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-bar {
@@ -49,14 +48,14 @@
     background: var(--primary-color);
     color: var(--main-text-color);
     padding: 60px 250px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     align-items: center;
 }
 
 .header img {
     width: 300px;
     padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header h1 {
